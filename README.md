@@ -45,6 +45,8 @@ Replace `<IP_ADDRESS>` with the IP address you want to geolocate.
 
 3. Run the docker container with the ip address you want to locate
 
+    ```docker run locateip <ip_address>```
+
 
 
 ## Output
