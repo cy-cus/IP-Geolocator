@@ -18,20 +18,34 @@ Make sure you have the following dependencies installed:
 
 1. Clone the repository:
 
-```git clone https://github.com/cy-cus/IP-Geolocator.git```
+   ```git clone https://github.com/cy-cus/IP-Geolocator.git```
 
 
 2. Navigate to the project directory:
 
-```cd IP-Geolocator```
+   ```cd IP-Geolocator```
 
 
 3. Run the script and provide the IP address as an argument:
 
-```python locateip.py <IP_ADDRESS>```
+   ```python locateip.py <IP_ADDRESS>```
 
 
 Replace `<IP_ADDRESS>` with the IP address you want to geolocate.
+
+## Using Docker
+
+1. Navigate to the project directory:
+
+	```cd IP-Geolocator```
+
+2. Build the docker image
+
+	```docker build -t locateip .```
+
+3. Run the docker container with the ip address you want to locate
+
+
 
 ## Output
 
